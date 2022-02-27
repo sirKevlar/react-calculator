@@ -43,8 +43,8 @@
   }
 }
 #header {
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 }
 #react-logo {
   height: 3rem;
@@ -53,8 +53,8 @@ align-items: center;
 .calc-body {
   height: 80vh;
   width: 60vh;
-  min-width: 420px;
-  min-height: 560px;
+  min-width: 300px;
+  min-height: 450px;
   background-color: aliceblue;
   border-radius: 1rem;
   display: grid;
@@ -77,12 +77,12 @@ align-items: center;
 
 .keys {
   border: 1px solid #332f2b;
-  font-size: 3em;
+  font-size: 2em;
   justify-content: center;
 }
 .display {
   grid-area: display;
-  font-size: 6rem;
+  font-size: 4rem;
   justify-content: end;
   padding-right: 1rem;
   font-weight: 100;
