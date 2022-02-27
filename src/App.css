@@ -2,9 +2,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   text-align: center;
-  background-color: #d0d9db;
+  background-color: #898e8f;
   height: 100vh;
 }
 
@@ -45,16 +45,16 @@
 #header {
   display: flex;
   align-items: center;
+  margin: 1em;
+  font-size: small;
 }
 #react-logo {
-  height: 3rem;
+  height: 1.6rem;
 }
 
 .calc-body {
-  height: 80vh;
-  width: 60vh;
-  min-width: 300px;
-  min-height: 450px;
+  height: 320px;
+  width: 240px;
   background-color: aliceblue;
   border-radius: 1rem;
   display: grid;
@@ -67,6 +67,7 @@
     'four five six subtract'
     'one two three add'
     'zero zero decimalPoint equals';
+  margin: 10px;
 }
 .keys,
 .display {
@@ -77,15 +78,16 @@
 
 .keys {
   border: 1px solid #332f2b;
-  font-size: 2em;
+  font-size: 1.3em;
   justify-content: center;
+  font-weight: 500;
 }
 .display {
   grid-area: display;
-  font-size: 4rem;
+  font-size: 3rem;
   justify-content: end;
   padding-right: 1rem;
-  font-weight: 100;
+  font-weight: 200;
   border-radius: 1rem 1rem 0 0;
 }
 .clear {
